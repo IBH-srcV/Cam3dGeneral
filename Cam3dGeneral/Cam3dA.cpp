@@ -6,16 +6,12 @@ Cam3dA::Cam3dA()
 Cam3dA::~Cam3dA()
 {
 }
-
 void Cam3dA::LoadSettingsFromFile(void)
 {
-
 }
 void Cam3dA::SaveSettingsToFile(void)
 {
-
 }
-
 void Cam3dA::CaptureFrame(void)
 {
 	Cam3dA::m_PointCloud.clear();

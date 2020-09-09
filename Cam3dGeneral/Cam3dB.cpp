@@ -8,14 +8,11 @@ Cam3dB::Cam3dB()
 Cam3dB::~Cam3dB()
 {
 }
-
 void Cam3dB::LoadSettingsFromFile(void)
 {
-
 }
 void Cam3dB::SaveSettingsToFile(void)
 {
-
 }
 void Cam3dB::SetCam(float _xRes, float _yRes, float _fps, bool _EmitterOn)
 {

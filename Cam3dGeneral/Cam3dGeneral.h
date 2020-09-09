@@ -1,9 +1,9 @@
 /// @file		Cam3dGeneral.h:
-/// @brief		Generalisierte C++ Klasse zum Prozessieren von Sensordaten unterschiedlicher 3D Kameras (bspw. Intel RealSense D400er Serie, 
-/// @brief		Microsoft Kinect, ZED, Livox Horizon,...)
+/// @brief		Generalisierte C++ Klasse zum Prozessieren von Sensordaten unterschiedlicher 3D Kameras 
+///				(bspw. Intel RealSense D400er Serie, Microsoft Kinect, ZED, Livox Horizon,...)
 /// @brief		OUTPUT: 3D Punktwolke im Point Cloud Data Format (PCD)	
-/// @brief		Abstrakte Basismethoden sind als "Pure Virtual" definiert, nach Ableitung für das jeweilige Kameramodell müssen diese zwingend 
-/// @brief		überschrieben werden -> Interface  
+/// @brief		Abstrakte Basismethoden sind als "Pure Virtual" definiert, nach Ableitung für das jeweilige 
+///				Kameramodell müssen diese zwingend überschrieben werden -> Interface  
 ///	@author		Sylvio Probst			
 ///	@author		Ingenieurbüro Hannweber GmbH			 
 ///	@version	0.2			
@@ -13,6 +13,7 @@
 #pragma once
 
 #include <pcl/point_cloud.h>
+
 
 
 class Cam3dGeneral
